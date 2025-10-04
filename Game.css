@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+h1{
+    color:white;
+    font-size: 5rem;;
+}
+body{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2036719460/display_1500/stock-vector-abstract-game-light-out-technology-and-with-neon-triangles-hitech-communication-concept-innovation-2036719460.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+   
+}
+main {
+    display: none; /* hidden until start */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container{
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:1.5vmin;
+    text-align:center;
+    color:rgb(187, 124, 124);
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    font-size:8vmin;
+    border-radius:1rem;
+    border:none;
+    box-shadow:10px 10px 10px 10px darkblue;
+}
+#reset-btn{
+    padding:1rem;
+    font-size:1rem;
+    border-radius:1rem;
+    border:none;
+    background-color: bisque;
+    font-weight: bold;
+
+}
+#msg{
+    font-size:5vmin;
+    font-weight:bold;
+}
+.msg-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;                 /* full screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 3rem;               /* readable size */
+    color: white;
+    text-align: center;
+}
+
+.hide {
+  display: none;
+}
+#new-btn{
+    padding:2rem;
+    font-size:20px;
+    border-radius:1rem;
+    border:none;
+    background-color: bisque;
+    font-weight: bold;
+}
+
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+.welcome h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.welcome .name {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.welcome input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.welcome button {
+    background: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+#back{
+    font-size:1rem;
+    font-weight: bold;
+    padding:1rem;
+    border-radius:1rem;
+    border:none;
+}
+
+

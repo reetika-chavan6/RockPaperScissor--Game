@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe  Game </title>
+    <link rel="stylesheet" href="Game.css">
+</head>
+<body>
+    <div class="welcome ">
+        <h2>WELCOME...</h2>
+        <p class="name">Enter Player 1 Name:</p>
+        <input type="text" id="name1"  placeholder="player (O) name">
+        <p class="name">Enter Player 2 Name:</p>
+        <input type="text" id="name2"  placeholder="Player (x) name">
+        <button id="start">Let`s start the game</button>
+    </div>
+    <div class="msg-container hide">
+        <p id=msg> Winner</p>
+        <button id="new-btn">...New Game...</button>
+    </div>
+    <main>
+        <h1>Tic-Tac-Toe Game</h1>
+        <div class="container ">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset-btn">...Reset Game...</button>
+        <button id="back">Go back to home</button>
+    
+    </main>
+    <script src="Game.js"></script>
+</body>
+</html>
